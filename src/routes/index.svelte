@@ -4,9 +4,13 @@
         let req = await fetch("/bg");
         let bgData: BGData = await req.json();
 
+        let nReq = await fetch("/n");
+        let nData = await nReq.json();
+
         return {
             props: {
-                bgData
+                bgData,
+                nData
             }
         };
     }
@@ -16,10 +20,11 @@
     import type { BGData } from "./bg";
     
     export let bgData: BGData;
+    export let nData;
 </script>
 
 <svelte:head>
-    <title>Gabriella Hotten</title>
+    <title>{nData.full}</title>
 </svelte:head>
 
 <section id="webSec">
@@ -32,7 +37,7 @@
 
     <div class="web-content">
         <p id="title">Hello lovely!</p>
-        <p id="text">I'm Gabi, welcome to my corner of the internet!</p>
+        <p id="text">I'm {nData.short}, welcome to my corner of the internet!</p>
         <p id="text">
             <a href="https://github.com/IsGabriellaCurious">github</a>
             <a href="https://scoresaber.com/u/76561198166602152">scoresaber</a>
