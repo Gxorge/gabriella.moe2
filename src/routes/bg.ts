@@ -11,7 +11,7 @@ let randomList: Array<BGData> = [
     {videoId: "5sTPFFAqlWk", watching: "me play Faerie on Beat Saber."},
     {videoId: "LnvVXyWa7hg", watching: "me play Revenge (Reek Remix) on Beat Saber."},
 
-    {videoId: "gHw2cQMZWFM", watching: "my Beat Saber Lightshow \"This This\"."},
+    {videoId: "gHw2cQMZWFM", watching: "my Beat Saber Lightshow \"Try This\"."},
     {videoId: "S0AoMa6ZH0Q", watching: "my Beat Saber Lightshow \"Moonlight\"."}   
 ]
 
