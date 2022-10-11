@@ -1,2 +1,2 @@
-# gabriella.moe - v2
-epic code for my new version of gabriella.moe - to hell with bootstrap studio!
+# gweb - v2
+epic code for my new version of ghott.me - to hell with bootstrap studio!
